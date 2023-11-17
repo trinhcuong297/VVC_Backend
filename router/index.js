@@ -9,5 +9,13 @@ Route
 	.use('/home', Home_Route)
 	.use('/news', News_Route)
 	.use('/aboutus', AboutUs_Route)
+	.post('/admin/login', (req, res) => {
+		console.log(req.body)
+		if (req.body?.Email == "vvcgreen" && req.body?.Password == "12345678") {
+			return res.status(200).json(1)
+		} else {
+			return res.status(200).json(0)
+		}
+	})
 
 export default Route;
