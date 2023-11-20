@@ -1,7 +1,7 @@
 import express from 'express';
 import http from 'http';
 import dotenv from 'dotenv';
-import { db_Connect } from './configs/db_server_connect.js';
+// import { db_Connect } from './configs/db_server_connect.js';
 import Route from './router/index.js';
 import cors from 'cors';
 
@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //db connect
-db_Connect().catch((err) => console.log(err));
+// db_Connect().catch((err) => console.log(err));
 
 //root api
 app
