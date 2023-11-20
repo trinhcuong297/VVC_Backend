@@ -22,17 +22,17 @@ const Home_Data = {
         title: "LĨNH VỰC KINH DOANH",
         features: [
             {
-                link: "/news",
+                link: "/Projects",
                 name: "QUẢN LÝ TÒA NHÀ",
                 detail: "Quản lý vận hành tòa nhà"
             },
             {
-                link: "/news",
+                link: "/Projects",
                 name: "THI CÔNG XÂY LẮP",
                 detail: "Thi công xây lắp tòa nhà"
             },
             {
-                link: "/news",
+                link: "/Projects",
                 name: "Đào tạo nghiệp vụ",
                 detail: "Đào tạo nghiệp vụ quản lý, vận hành"
             }
