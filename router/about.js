@@ -1,5 +1,4 @@
 import express from 'express';
-import mongoose from 'mongoose';
 
 const AboutUs_Route = express.Router();
 
@@ -85,14 +84,5 @@ AboutUs_Route
             console.log(err);
         }
     })
-    .post('/', async (req, res) => {
-        try {
-            const DeviceModel = mongoose.model(`device_owner`, Device_Owner);
-            const get_Test_Data = await DeviceModel.find({ username: req.params.user });
-            return res.status(200).json(get_Test_Data);
-        } catch (err) {
-            console.log(err);
-        }
-    });
 
 export default AboutUs_Route;

@@ -1,5 +1,4 @@
 import express from 'express';
-import mongoose from 'mongoose';
 
 const News_Route = express.Router();
 

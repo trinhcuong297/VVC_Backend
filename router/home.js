@@ -1,5 +1,4 @@
 import express from 'express';
-import mongoose from 'mongoose';
 
 const Home_Route = express.Router();
 const Home_Data = {
