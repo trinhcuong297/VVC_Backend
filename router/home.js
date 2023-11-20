@@ -5,43 +5,42 @@ const Home_Route = express.Router();
 const Home_Data = {
     Hero: [
         {
-            img_url: "https://chungcu-thesun.com.vn/wp-content/uploads/2019/02/chung-cu-the-sun-me-tri.jpg",
-            cover: "Quản lý tòa nhà",
-            detail: "It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air that emanation from old trees, that so wonderfully changes and renews a weary spirit."
+            img_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dubai_Marina_Skyline.jpg/1200px-Dubai_Marina_Skyline.jpg",
+            cover: "Trao giá trị - Tạo niềm tin",
+            detail: ""
         },
         {
-            img_url: "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80",
-            cover: "The Beauty of Nature 2",
-            detail: "It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air that emanation from old trees, that so wonderfully changes and renews a weary spirit."
+            img_url: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2ZmaWNlJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D",
+            cover: "Trung thực - Tận tâm - Trách nhiệm",
+            detail: ""
         }
     ],
     Intro: {
-        left: "Lời giới thiệu",
+        left: "GIỚI THIỆU",
         right: "Công ty TNHH VVC GREEN tên thương hiệu là VVC xin gửi tới Quý khách hàng lời chúc tốt đẹp nhất. Kính chúc Quý khách hàng và gia đình sức khỏe, thành công, hạnh phúc trong cuộc sống!<br/>Mọi hoạt động của VVC đều hướng tới xây dựng sự tin tưởng và đem lại lợi ích tối đa tới đối tác và khách hàng; luôn tâm huyết, sáng tạo trong quá trình xây dựng và phát triển thương hiệu; coi đó là lợi ích cốt lõi của chính công ty.<br/>Ban lãnh đạo VVC  cam kết bằng sự tận tâm, nhiệt huyết của cũng như sự đoàn kết, nỗ lực, chia sẻ của toàn thể cán bộ, nhân viên, chúng tôi tin tưởng sẽ đạt được sự hài lòng của Quý khách hàng, sự tín nhiệm của đối tác và các chủ đầu tư, phấn đấu trở thành một trong những thương hiệu mạnh tại Việt Nam trong lĩnh vực tư vấn vận hành và bảo trì hệ thống kỹ thuật tòa nhà."
     },
     Feature: {
-        title: "Lĩnh vực kinh doanh",
+        title: "LĨNH VỰC KINH DOANH",
         features: [
             {
                 link: "/news",
-                name: "Quản lý tòa nhà",
-                detail: "Quản lý dịch vụ tòa nhà, lễ tân, bảo vệ,..."
+                name: "QUẢN LÝ TÒA NHÀ",
+                detail: "Quản lý vận hành tòa nhà"
             },
             {
                 link: "/news",
-                name: "Quản lý tòa nhà",
-                detail: "Quản lý dịch vụ tòa nhà, lễ tân, bảo vệ,..."
+                name: "THI CÔNG XÂY LẮP",
+                detail: "Thi công xây lắp tòa nhà"
             },
             {
                 link: "/news",
-                name: "Quản lý tòa nhà",
-                detail: "Quản lý dịch vụ tòa nhà, lễ tân, bảo vệ,..."
+                name: "Đào tạo nghiệp vụ",
+                detail: "Đào tạo nghiệp vụ quản lý, vận hành"
             }
         ]
     },
     News: {
         title: "Tin tức",
-        link: "/news"
     }
 }
 
